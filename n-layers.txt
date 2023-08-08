@@ -1,0 +1,9 @@
+src- all source code
+    - entities - object mappings
+    - factories - instance generators
+    - repositories - data access
+    - routes - endpoint mappings
+    - services - communication between routes and repo layers (business logic)
+    - util - shared code
+    - handler - file: communication between routes and server instance
+    - entry.ts/js - server instance
