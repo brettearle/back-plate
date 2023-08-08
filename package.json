@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./dist/src/entry.js",
-    "test": "node --test --loader ts-node/esm ./src/**/*.test.ts ./src/*.test.ts"
+    "dev": "node --loader ts-node/esm ./src/entry.ts",
+    "test": "node --no-warnings --test --loader ts-node/esm ./src/**/*.test.ts ./src/*.test.ts"
   },
   "keywords": [],
   "author": "",
